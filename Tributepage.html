@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <style>
+body {
+    font-family: 'Caveat', cursive;
+    background-color: beige;
+    color: #333;
+    background-image:url('https://wallpaperaccess.com/full/3289851.jpg') ;
+    background-repeat: no-repeat;
+}
+
+header {
+    color:white;
+    text-align:left;
+    font-size: 2em;
+}
+nav {
+
+            background-color: beige;
+        }
+
+        nav a {
+            float: left;
+            margin-right: 9%;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bolder;
+            color: whitesmoke;
+        }
+img{
+    height: 500px;
+    width: 500px;
+    align-items: center;
+}
+
+nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+main {
+            padding: 20px;
+        }
+section {
+            display: none;
+            height: 300px;
+        }
+
+.ho {
+            width: 50%;
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 30px;
+            border-radius: 10px;
+}
+#about {
+            height: 900px;
+            padding: 20px;
+        }
+#achivement {
+            height: 900px;
+            padding: 20px;
+        }
+#awards {
+            height: 900px;
+            padding: 20px;
+        }
+footer {
+    background-color: #ff7e67;
+    color:black;
+    text-align: center;
+    padding: 1em 0;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h2>MAHENDRA SINGH DHONI</h2>
+        <p>"I'm on national duty; everything else can wait.".</p>
+    </header>
+    <nav>
+    <a href="#" onclick="showPage('about')">About</a>
+    <a href="#" onclick="showPage('achievement')">Achivement</a>
+    <a href="#" onclick="showPage('awards')">Awards</a>
+    </nav>
+    <main>
+   <section id="about" style="display: block;">
+    <h2 style="color: white;"></h2>
+    <div class="ho">
+        <p>Mahendra Singh Dhoni, commonly known as MS Dhoni, is a former Indian cricketer and one of the most successful captains in the history of Indian cricket.</p>
+
+        <p>Some key highlights of MS Dhoni's career include:</p>
+        
+        <ul>
+            <li>Successful captaincy in winning the ICC World Twenty20 (2007), ICC Cricket World Cup (2011), and ICC Champions Trophy (2013).</li>
+            <li>Recognition as one of the best finishers in limited-overs cricket.</li>
+            <li>Notable contributions as a wicketkeeper-batsman.</li>
+        </ul>
+    
+        <p>After his retirement from international cricket in 2020, Dhoni continued to play in domestic T20 leagues like the Indian Premier League (IPL).</p>
+    
+        <p>His contributions to Indian cricket, both as a player and captain, have left an indelible mark on the sport.</p>
+    </p>
+    </div>
+    </section>
+    <section id="achievement">
+        <h2 style="color: white;">Achievement</h2>
+        <div class="ho">
+
+            <ul>
+                <li><strong>Captaincy Achievements:</strong>
+                    <ul>
+                        <li>Won ICC World Twenty20 in 2007.</li>
+                        <li>Won ICC Cricket World Cup in 2011.</li>
+                        <li>Won ICC Champions Trophy in 2013.</li>
+                    </ul>
+                </li>
+        
+                <li><strong>Test Cricket:</strong>
+                    <ul>
+                        <li>Led India to the No. 1 ranking in Test cricket in 2009.</li>
+                    </ul>
+                </li>
+        
+                <li><strong>One Day Internationals (ODIs):</strong>
+                    <ul>
+                        <li>Fastest century by an Indian wicketkeeper (off 72 balls against Pakistan in 2012).</li>
+                        <li>Most sixes as captain in ODIs.</li>
+                        <li>Most wins by an Indian captain in ODIs.</li>
+                    </ul>
+                </li>
+        
+                <li><strong>Indian Premier League (IPL):</strong>
+                    <ul>
+                        <li>Captain of Chennai Super Kings (CSK) - multiple IPL titles.</li>
+                    </ul>
+                </li>
+        
+                <li><strong>Other Achievements:</strong>
+                    <ul>
+                        <li>Received the Rajiv Gandhi Khel Ratna award in 2007.</li>
+                        <li>Padma Shri award in 2009.</li>
+                    </ul>
+                </li>
+            </ul>
+    </div>
+    </section>
+    <section id="awards">
+        <h2 style="color: white;">Awards</h2>
+         <div class="ho">
+            <ul>
+                <li><strong>Rajiv Gandhi Khel Ratna (2007):</strong>
+                    <p>India's highest honor given for achievements in sports. Dhoni received this award in 2007.</p>
+                </li>
+        
+                <li><strong>Padma Shri (2009):</strong>
+                    <p>The fourth-highest civilian award in the Republic of India. Dhoni was honored with the Padma Shri in 2009.</p>
+                </li>
+        
+                <li><strong>ICC ODI Player of the Year (2008, 2009):</strong>
+                    <p>Dhoni was named the ICC ODI Player of the Year in both 2008 and 2009 for his outstanding performances in One Day Internationals.</p>
+                </li>
+        
+                <li><strong>ICC World ODI XI (Multiple Years):</strong>
+                    <p>Dhoni has been named in the ICC World ODI XI multiple times in recognition of his performances in One Day Internationals.</p>
+                </li>
+        
+                <li><strong>Padma Bhushan (2018):</strong>
+                    <p>The third-highest civilian award in the Republic of India. Dhoni received the Padma Bhushan in 2018.</p>
+                </li>
+        
+                <li><strong>Outstanding Achievement in Sport (2012):</strong>
+                    <p>Received this award at the Sahara India Sports Awards in 2012.</p>
+                </li>
+                </div>
+                </section>
+    </main>
+    <footer>
+        <p>Expressing admiration in a simple and personalized way.</p>
+    </footer>
+
+</body>
+</html>

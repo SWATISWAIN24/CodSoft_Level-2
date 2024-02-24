@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Management System</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', sans-serif;
+            background-image: url('photo.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: rgb(0, 0, 0);
+        }
+
+        nav {
+            overflow: hidden;
+            background-color: rgba(255, 255, 255, 0.7);
+            /* Set the background color and transparency as needed */
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            margin-right: 9%;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bolder;
+            color: black;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            display: none;
+            height: 300px;
+            /* Set the height of the section as needed */
+        }
+
+        .ho {
+            width: 50%;
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        #home {
+            height: 900px;
+            /* Set the height of the section as needed */
+            padding: 20px;
+        }
+
+        #about {
+            height: 900px;
+        }
+
+        #services {
+            height: 900px;
+        }
+
+        #contact {
+            height: 900px;
+        }
+
+        #appointment {
+            height: 900px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+        .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 20px; /* Adjust the margin to your preference */
+}
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#" onclick="showPage('home')">Home</a>
+        <a href="#" onclick="showPage('about')">About</a>
+        <a href="#" onclick="showPage('services')">Services</a>
+        <a href="#" onclick="showPage('contact')">Contact</a>
+        <a href="#" onclick="showPage('appointment')">Appointment</a>
+    </nav>
+
+    <main>
+        <section id="home" style="display: block;">
+            <div class="logo">
+            <h2 style="color: white;font-size: x-large; font-family: 'Times New Roman', Times, serif;"><b>Welcome to AgroHub!</b></h2>
+            <img src="https://triggerbd.net/wp-content/uploads/2021/07/cropped-Trigger-512_512.png" alt="" height="100px" width="100px">
+            </div>
+            <div class="ho">
+                <p>At AgroHub, we are committed to providing exceptional Agricultural technology with expertise.
+                    Our dedicated team of Agriculture professionals strives to ensure the well-being and comfort of every
+                    crop we produce.</p>
+                <p>With skilled experts, cutting-edge agricultutral technology, and a farm-centered approach,
+                    AgroHub stands as a beacon of advance level farming in our community. Whether you're seeking
+                    preservatives , specialized treatment of soil, or type of crop, we are here to meet your needs.</p>
+                <p>Explore our website to learn more about our services, agro professionals, and the values that
+                    drive our commitment to excellence. Thank you for choosing AgroHub for your crop and healthy feild growth
+                    journey.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 style="color: white;">About Us</h2>
+            <div class="ho">
+                <p>Welcome to AgroHub, AgroHub, we are committed to providing exceptional Agricultural technology with expertise.
+                    Our dedicated team of Agriculture professionals strives to ensure the well-being and comfort of every
+                    crop we produce.</p>
+                <p>Our Mission:</p>
+                <p>At AgroHub, our mission is to provide compassionate and comprehensive agricultutral services to our
+                    community. We strive to promote a healthy and nurturing environment to the crop , focusing on the overall
+                    wellness of the feilds.</p>
+
+                <p>Core Values:</p>
+                <ul>
+                    <li><b>Sustainability</b>: Commitment to sustainable practices that promote environmental conservation and minimize ecological impact.</li>
+                    <li><b>Integrity </b>: Upholding honesty, transparency, and ethical conduct in all operations and dealings.</li>
+                        <li><b> Innovation</b>: Embracing new technologies and methods to enhance productivity, efficiency, and crop quality.</li>
+                            <li><b>Community</b>: Supporting local communities, fostering relationships, and contributing positively to society.</li>
+                                <li><b>Quality </b>: Ensuring high-quality products and services that meet or exceed customer expectations.</li>
+                                    <li><b>Responsibility</b>: Taking responsibility for the welfare of employees, animals, land, and resources used in production.</li>
+                                        <li><b>Continuous Improvement</b>: Striving for ongoing improvement in processes, products, and practices.</li>
+                </ul>
+
+                <p>Our Team:</p>
+                <p>Our dedicated team of agricultute professionals, including experienced agro tech engineers, guide , and support
+                    staff, works collaboratively to ensure that you receive the best possible care for you crop . We prioritize
+                    continuous training and development to stay abreast of the latest machinary.</p>
+            </div>
+        </section>
+
+
+        <section id="services">
+            <h2 style="color: white;">Our Services</h2>
+            <div class="ho">
+                <h3>Crop Services</h3>
+                <ul>
+                 <li><strong>Production:</strong> Providing seeds, fertilizers, pesticides, and expertise to optimize crop growth and yield.</li>
+                 <li><strong> Soil Management:</strong> Conducting soil testing, offering soil amendments, and providing advice for soil health and fertility.</li>
+                    <li><strong>Pest and Disease Control:</strong> Offering solutions to manage pests, diseases, and weed control through products and advisory services.</li>
+                        <li><strong>Equipment and Machinery:</strong> Supplying farming equipment, machinery, and technology for efficient farm operations.</li>
+                            <li><strong>Consulting and Advisory Services:</strong> Offering expert advice on crop selection, farming techniques, and best practices for sustainable agriculture.</li>
+                                <li><strong>Research and Development:</strong> Conducting R&D for new crop varieties, technologies, and methods to enhance agricultural productivity.</li>
+                                    <li><strong>Logistics and Distribution:</strong> Assisting in the transportation, storage, and distribution of agricultural produce to markets or processing facilities.</li>
+                                        <li><strong>Training and Education:</strong> Providing training programs, workshops, and educational resources for farmers to improve their skills and knowledge.</li>
+                                            <li><strong>Financial Services:</strong> Offering financial assistance, loans, or insurance tailored to the needs of agricultural operations.</li>
+                                                <li><strong>Agri-Tourism and Agri-Entertainment:</strong> Diversifying by opening farms for tourism, educational purposes, or entertainment experiences.</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <h2 style="color: white;">Contact Us</h2>
+            <div class="ho">
+                <p>Have questions or need to get in touch? Feel free to reach out to us. We are here to assist you in any way we can.</p>
+
+                <h3>Contact Information</h3>
+                <p><strong>Address:</strong> 123 Agro venue, City, State, Pin Code</p>
+                <p><strong>Phone:</strong> 993337774</p>
+                <p><strong>Email:</strong> info@agrohub.com</p>
+
+                <h3>Office Hours</h3>
+                <p><strong>Monday - Friday:</strong> 8:00 AM - 6:00 PM</p>
+                <p><strong>Saturday:</strong> 9:00 AM - 3:00 PM</p>
+                <p><strong>Sunday:</strong> Closed</p>
+
+                <h3>Appointment Scheduling</h3>
+                <p>To schedule an appointment, please call our appointment line during office hours or use our online
+                    appointment scheduling system on our website.</p>
+
+                <h3>Emergency Contact</h3>
+                <p>If you have any emergency, please dial toll free for immediate
+                    assistance.</p>
+            </div>
+        </section>
+
+
+        <section id="appointment">
+            <h2 style="color: white;">Appointment</h2>
+            <div class="ho">
+                <p>Schedule an appointment with AgroHub to receive personalized guidance on your farm. We are here to
+                    address your needs and provide you with the best possible care.</p>
+
+                <form id="appointmentForm" onsubmit="validateAppointment(event)" action="Submit.html">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="preferredDate">Preferred Date:</label>
+                    <input type="date" id="preferredDate" name="preferredDate" required>
+
+                    <button type="submit">Schedule Appointment</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 AgroHub Management System
+    </footer>
+
+    <script>
+        function showPage(pageId) {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => section.style.display = 'none');
+            document.getElementById(pageId).style.display = 'block';
+        }
+
+        function validateAppointment(event) {
+            const fullname = document.getElementById('fullname').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const preferredDate = document.getElementById('preferredDate').value;
+
+            if (fullname === '' || email === '' || phone === '' || preferredDate === '') {
+                alert('Please fill in all fields to schedule an appointment.');
+                event.preventDefault();
+            }
+        }
+    </script>
+</body>
+
+</html>
